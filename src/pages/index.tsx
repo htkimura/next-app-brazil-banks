@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import * as H from './Home.style'
+import * as H from '../styles/Home.style'
 import Layout from '../components/Layout'
-import { BANKS } from './routes'
+import { BANKS } from '../config/routes'
 
 export default function Home() {
 	return (

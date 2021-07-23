@@ -3,7 +3,7 @@ import Image from 'next/image'
 import * as H from './Header.style'
 import logo from '../../../public/logo.svg'
 import Link from 'next/link'
-import { HOME } from '../../pages/routes'
+import { HOME } from '../../config/routes'
 
 const Header = () => {
 	return (
