@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { theme } from './theme'
 
 const GlobalStyle = createGlobalStyle`
   html,
@@ -10,8 +11,14 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a {
-    color: inherit;
+    color: ${theme.colors.alternative};
     text-decoration: none;
+  }
+
+  a:hover,
+  .title a:focus,
+  .title a:active {
+    text-decoration: underline;
   }
 
   * {
